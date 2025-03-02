@@ -14,6 +14,22 @@ A **C-based Bank Management System** that allows users to **create accounts, edi
 ## 🛠️ Installation & Compilation
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/yourusername/bank-management-system.git
+
 cd bank-management-system
+
+2️⃣ Compile the Program
+
+Ensure you have GCC installed. Then, run:
+
+
+gcc bank_management.c -o bank_management.exe
+
+(Replace bank_management.c with your file name if different.)
+
+3️⃣ Run the Program
+
+./bank_management.exe  # On Linux/Mac
+
+bank_management.exe    # On Windows
